@@ -2,7 +2,7 @@
 
 **Autor:** Mariana Nicolle Cordeiro
 
-Este projeto tem como objetivo implementar progressivamente uma aplicação web voltada para a exibição e intermediação de venda de veículos (foco em carros clássicos e retrô). O **Retron** oferece uma interface moderna para que entusiastas naveguem por um catálogo selecionado, realizem cadastros com validação automática de endereço e manifestem interesse em modelos específicos.
+Este projeto tem como objetivo implementar progressivamente uma aplicação web voltada para a exibição e intermediação de venda (foco em carros clássicos e retrô). O **Retron** oferece uma interface moderna para que entusiastas naveguem por um catálogo selecionado, realizem cadastros com validação automática de endereço e manifestem interesse em modelos específicos de carros.
 
 O frontend da aplicação foi desenvolvido com **HTML, CSS (Sass) e JavaScript**, e o backend é simulado por uma **API Fake**, utilizando o **JSON Server**.
 
