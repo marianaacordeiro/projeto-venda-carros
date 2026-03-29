@@ -5,7 +5,7 @@
 
 ## 1. Descrição do Projeto
 
-O **Retron** é uma plataforma web voltada para entusiastas e colecionadores de automóveis. O sistema resolve a necessidade de uma vitrine digital organizada onde usuários podem explorar um catálogo selecionado de veículos clássicos, acessar detalhes técnicos e manifestar interesse de compra através de um fluxo de cadastro integrado com validação de endereço.
+O **Retron** é uma plataforma web voltada para entusiastas e colecionadores. O sistema resolve a necessidade de uma vitrine digital organizada onde usuários podem explorar um catálogo selecionado de veículos clássicos, acessar detalhes técnicos e manifestar interesse de compra através de um fluxo de cadastro integrado com validação de endereço.
 
 ## 2. Atores do Sistema
 
