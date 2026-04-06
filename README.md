@@ -20,7 +20,7 @@ Para entender as regras de negócio, o escopo e a arquitetura técnica da aplica
 ## 🎨 Design
 
 - 🎨 [Design System](https://stitch.withgoogle.com/u/1/projects/17515904052542787954?pli=1) – Identidade visual (Cores, Tipografia e Componentes).
-- 🖼️ [Protótipo no Stitch](https://stitch.withgoogle.com/u/1/projects/17515904052542787954?pli=1) – Telas interativas da aplicação (Mobile e Desktop).
+- 🖼️ [Protótipo no Stitch](https://stitch.withgoogle.com/preview/17515904052542787954?node-id=1e430dc6f71c44c8bfa4e6278618cf9b) – Telas interativas da aplicação (Mobile e Desktop).
 
 ---
 
