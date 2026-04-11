@@ -5,7 +5,7 @@
 **Status:** Em Desenvolvimento
 
 ## 1. Visão Geral e Objetivo
-O **Retron** é uma aplicação web didática que funciona como um catálogo de veículos clássicos. O objetivo é permitir que visitantes explorem modelos históricos e que clientes interessados realizem um cadastro funcional para manifestar intenção de compra. O diferencial técnico é a integração com serviços externos para automação de formulários.
+O **Retron** é uma plataforma web voltada para entusiastas e colecionadores. O sistema resolve a necessidade de uma vitrine digital organizada onde usuários podem explorar um catálogo selecionado de veículos clássicos, acessar detalhes técnicos e manifestar interesse de compra através de um fluxo de cadastro integrado com validação de endereço.
 
 ## 2. Atores do Sistema
 - **Visitante:** Usuário não autenticado que navega pela Home e visualiza o catálogo.
@@ -14,13 +14,13 @@ O **Retron** é uma aplicação web didática que funciona como um catálogo de 
 
 ## 3. Histórias de Usuário e Escopo
 
-### 👤 Épico 1: Cadastro e Localização
+### Épico 1: Cadastro e Localização
 - **US01 - Automação de Endereço (CEP):** Como Cliente, quero preencher meu CEP para que Rua, Bairro e Cidade sejam preenchidos automaticamente.
     - **Critérios de Aceitação:** Os campos automáticos devem ser validados antes do envio.
-- **US02 - Validação de Contato:** Como Cliente, quero que meus dados de E-mail e Telefone sejam validados para garantir que a loja consiga me retornar.
+- **US02 - Validação de Contato:** Como Cliente, quero que meus dados de E-mail e Telefone sejam validados para garantir meu cadastro.
     - **Critérios de Aceitação:** O formulário não deve ser enviado se o e-mail for inválido ou o telefone estiver incompleto.
 
-### 📊 Épico 2: Gestão de Interesses (Leads)
+### Épico 2: Gestão de Interesses (Leads)
 - **US03 - Registro de Intenção:** Como Cliente, quero clicar em "Tenho Interesse" em um veículo para que minha intenção seja salva no sistema.
     - **Critérios de Aceitação:** O clique deve disparar uma gravação no banco de dados simulado vinculando o cliente ao veículo escolhido.
 
