@@ -31,9 +31,8 @@ Para entender as regras de negócio, o escopo e a arquitetura técnica da aplica
   - [jQuery](https://jquery.com/) – Para animações e manipulação dinâmica do DOM.
   - [jQuery Mask Plugin](https://igoresobarboza.github.io/jquery-mask-plugin/) – Para máscaras de formulário (CPF, CEP, Telefone).
 - **API:**
-  - [JSON Server](https://github.com/typicode/json-server) – Para simular uma API REST de veículos e interessados.
-  - [ViaCEP](https://viacep.com.br/) – API pública para preenchimento automático de endereço.
-
+  - [JSON Server](https://github.com/typicode/json-server) – Utilizado como API fake para permitir que o sistema exiba os veículos de forma dinâmica e persista os dados de interesse dos clientes.
+  - [ViaCEP](https://viacep.com.br/) – API pública utilizada para automação de endereço, preenchendo os campos após o usuário digitar o CEP.
 ---
 
 ## ✅ Checklist | Indicadores de Desempenho (ID)
