@@ -76,3 +76,18 @@ Breve explicação das tabelas principais:
     - veiculo_id: Chave estrangeira que identifica o veículo alvo do interesse.
 
     - data_registro: Carimbo de data/hora da manifestação de interesse.
+ 
+## 1. Tecnologias e Versões
+
+As versões abaixo foram selecionadas para garantir a estabilidade do sistema e a compatibilidade entre as bibliotecas:
+
+* **Bootstrap v5.3.3**
+    * **Importância:** Base do layout responsivo. A versão 5.3 elimina a dependência de jQuery para componentes nativos (como modais e dropdowns), tornando o carregamento do site mais leve e moderno.
+* **jQuery v3.7.1 & jQuery Mask v1.14.16**
+    * **Importância:** O jQuery facilita a manipulação dinâmica de elementos na tela (DOM). O plugin de máscara é fundamental para garantir que dados sensíveis, como **Telefone** e **CEP**, sejam validados e salvos no formato correto no banco de dados.
+* **ViaCEP API v1**
+    * **Importância:** API pública real utilizada para automação de endereços. É essencial para cumprir o requisito de integração externa (RA5) e melhorar a usabilidade do formulário de interesse.
+* **JSON Server v0.17.4**
+    * **Importância:** Atua como nossa "API Fake". É vital para simular a persistência de dados (veículos e leads), permitindo o desenvolvimento de um sistema funcional e dinâmico sem a necessidade de um banco de dados complexo nesta etapa.
+
+---
