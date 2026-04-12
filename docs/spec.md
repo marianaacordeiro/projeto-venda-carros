@@ -13,6 +13,7 @@ erDiagram
         string id PK
         string nome
         string email
+        string telefone
         string cep
         string logradouro
         string bairro
