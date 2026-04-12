@@ -77,7 +77,7 @@ Breve explicação das tabelas principais:
 
     - data_registro: Carimbo de data/hora da manifestação de interesse.
  
-## 1. Tecnologias e Versões
+## 3. Tecnologias e Versões
 
 As versões abaixo foram selecionadas para garantir a estabilidade do sistema e a compatibilidade entre as bibliotecas:
 
