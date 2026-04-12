@@ -36,7 +36,7 @@ erDiagram
         string data_registro
     }
 ````
-2. Dicionário de Dados
+## 2. Dicionário de Dados
 Breve explicação das tabelas principais:
 
 Usuários: Responsável por armazenar os dados cadastrais do cliente e as informações de localização automatizadas.
