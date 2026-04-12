@@ -15,6 +15,8 @@ erDiagram
         string email
         string cep
         string logradouro
+        string bairro
+        string cidade
     }
 
     VEICULO {
@@ -32,4 +34,3 @@ erDiagram
         string veiculo_id FK
         string data_registro
     }
-```
