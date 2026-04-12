@@ -39,40 +39,40 @@ erDiagram
 ## 2. Dicionário de Dados
 Breve explicação das tabelas principais:
 
-Usuários: Responsável por armazenar os dados cadastrais do cliente e as informações de localização automatizadas.
+- **Usuários:** Responsável por armazenar os dados cadastrais do cliente e as informações de localização automatizadas.
 
-id: Identificador único gerado automaticamente pelo JSON Server (String ou Hash).
+    - id: Identificador único gerado automaticamente pelo JSON Server (String ou Hash).
 
-nome: Nome completo do cliente para personalização da interface.
+    - nome: Nome completo do cliente para personalização da interface.
 
-email: Endereço de contato (Chave de validação no front-end).
+    - email: Endereço de contato (Chave de validação no front-end).
 
-telefone: Número de contato com DDD para retorno comercial.
+    - telefone: Número de contato com DDD para retorno comercial.
 
-cep: Código postal que dispara a integração com a API ViaCEP.
+    - cep: Código postal que dispara a integração com a API ViaCEP.
 
-logradouro/bairro/cidade: Dados de endereço preenchidos automaticamente via JavaScript após a consulta do CEP.
+    - logradouro/bairro/cidade: Dados de endereço preenchidos automaticamente via JavaScript após a consulta do CEP.
 
-Veículos: Contém o catálogo técnico dos carros clássicos disponíveis na vitrine.
+- **Veículos:** Contém o catálogo técnico dos carros clássicos disponíveis na vitrine.
 
-id: Identificador único do veículo.
+    - id: Identificador único do veículo.
 
-modelo: Nome do carro (ex: Opala, Maverick).
+    - modelo: Nome do carro (ex: Opala, Maverick).
+    
+    - marca: Fabricante do veículo.
 
-marca: Fabricante do veículo.
+    - ano: Ano de fabricação (importante para a classificação como clássico/retrô).
+    
+    - preco: Valor de venda formatado para exibição.
 
-ano: Ano de fabricação (importante para a classificação como clássico/retrô).
+    - imagem_url: Caminho local ou link da fotografia do veículo exibida nos cards.
 
-preco: Valor de venda formatado para exibição.
+- **Interesses:** Registra a intenção de compra e gera o lead de venda. Regra de Negócio Crítica: Toda vez que o cliente clicar em "Tenho Interesse", o JavaScript deve capturar o usuario_id e o veiculo_id atual para criar um novo registro nesta tabela, permitindo o rastreio de quais modelos são mais desejados.
 
-imagem_url: Caminho local ou link da fotografia do veículo exibida nos cards.
+    - id: Identificador único do registro de interesse.
 
-Interesses: Registra a intenção de compra e gera o lead de venda. Regra de Negócio Crítica: Toda vez que o cliente clicar em "Tenho Interesse", o JavaScript deve capturar o usuario_id e o veiculo_id atual para criar um novo registro nesta tabela, permitindo o rastreio de quais modelos são mais desejados.
+    - usuario_id: Chave estrangeira que vincula o interesse ao cliente (padrão de nomenclatura do JSON Server).
 
-id: Identificador único do registro de interesse.
+    - veiculo_id: Chave estrangeira que identifica o veículo alvo do interesse.
 
-usuario_id: Chave estrangeira que vincula o interesse ao cliente (padrão de nomenclatura do JSON Server).
-
-veiculo_id: Chave estrangeira que identifica o veículo alvo do interesse.
-
-data_registro: Carimbo de data/hora da manifestação de interesse.
+    - data_registro: Carimbo de data/hora da manifestação de interesse.
