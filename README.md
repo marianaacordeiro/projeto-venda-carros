@@ -75,3 +75,31 @@ Para entender as regras de negócio, o escopo e a arquitetura técnica da aplica
 - [ ] **ID 22** - Realiza requisições para API fake para persistir dados de formulário.
 - [ ] **ID 23** - Realiza requisições para API fake para exibir dados na página.
 - [ ] **ID 24** - Realiza requisições para APIs públicas reais (ViaCEP).
+---
+# ✅ Checklist de Configuração Inicial do Projeto
+
+## Passo 1: Git Clone 
+- [X] Acessar o repositório no GitHub.
+- [X] Copiar a URL (HTTPS/SSH).
+- [X] Executar o comando `git clone URL_DO_REPOSITORIO` no terminal.
+      
+## Passo 2: package.json
+- [X] Executar `npm init -y` para criar a certidão de nascimento do projeto.
+
+## Passo 3: .gitignore
+- [X] Criar o arquivo `.gitignore` na raiz do projeto.
+- [X] Adicionar a linha `/node_modules` no arquivo.
+
+## Passo 4: Instalando as Dependências (NPM)
+### Dependências de Produção (`--save`)
+- [X] Instalar o jQuery: `npm install jquery --save`
+- [X] Instalar o uuid: `npm install uuid --save`
+
+### Dependências de Desenvolvimento (`--save-dev`)
+- [X] Instalar o gh-pages: `npm install gh-pages --save-dev`
+- [X] **Teste:** Conferir se as listas `dependencies` e `devDependencies` surgiram no `package.json`.
+
+## Passo 5: Git
+- [X] **Stage:** Adicionar arquivos com `git add .`.
+- [X] **Commit:** Tirar a "foto" com `git commit -m "chore: inicializa projeto node e configura dependencias"`.
+- [X] **Push:** Enviar para o GitHub com `git push origin main`.
