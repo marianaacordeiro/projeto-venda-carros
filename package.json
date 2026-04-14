@@ -1,0 +1,31 @@
+{
+  "name": "projeto-venda-carros",
+  "version": "1.0.0",
+  "description": "**Autor:** Mariana Nicolle Cordeiro",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marianaacordeiro/projeto-venda-carros.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/marianaacordeiro/projeto-venda-carros/issues"
+  },
+  "homepage": "https://github.com/marianaacordeiro/projeto-venda-carros#readme",
+  "dependencies": {
+    "jquery": "^4.0.0",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
