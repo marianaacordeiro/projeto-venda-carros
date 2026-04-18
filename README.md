@@ -59,7 +59,7 @@ Para entender as regras de negócio, o escopo e a arquitetura técnica da aplica
 
 ### RA3 - Ferramentas de Desenvolvimento
 
-- [ ] **ID 15** - Configura ambiente com Node.js e NPM.
+- [x] **ID 15** - Configura ambiente com Node.js e NPM.
 - [ ] **ID 16** - Utiliza boas práticas de versionamento no Git/GitHub (commits semânticos, .gitignore).
 - [ ] **ID 17** - Mantém um README.md padronizado com checklist preenchido.
 - [ ] **ID 18** - Organiza arquivos do projeto de forma modular.
