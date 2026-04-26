@@ -76,8 +76,22 @@ Breve explicação das tabelas principais:
     - veiculo_id: Chave estrangeira que identifica o veículo alvo do interesse.
 
     - data_registro: Carimbo de data/hora da manifestação de interesse.
+  ## 3. Manual Técnico
+Este guia documenta os padrões visuais e as escolhas de infraestrutura do projeto.
+
+- **Design Tokens**
+Cores Primárias: #C41E3A (Vermelho Cardinal) para ações principais e #121212 (Preto) para o fundo (Dark Mode).
+
+Cores de Suporte: #D9D2C5 (Bege Retrô) para detalhes e #2C2C2C (Cinza Antracite) para componentes de superfície (Cards).
+
+- **Tipografia:** Noto Serif para títulos (clássico) e Manrope para corpo de texto (moderno/legível).
+
+-  **Framework CSS e API**
+Framework: Bootstrap v5.3.3.
+
+API Pública: ViaCEP API v1, utilizada para garantir a integridade dos dados de localização e melhorar a experiência do usuário.
  
-## 3. Tecnologias e Versões
+## 4. Tecnologias e Versões
 
 As versões abaixo foram selecionadas para garantir a estabilidade do sistema e a compatibilidade entre as bibliotecas:
 
